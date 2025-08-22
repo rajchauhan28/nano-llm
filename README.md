@@ -53,6 +53,9 @@ Next, create a Python virtual environment and install the required dependencies.
 # Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate
+for windows :-
+source venv/Scripts/activate
+
 
 # Install dependencies
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
